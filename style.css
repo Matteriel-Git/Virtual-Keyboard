@@ -10,15 +10,12 @@
     transition: bottom 0.4s;
     
 }
-
 .keyboard_hidden {
     bottom: -100%;
 }
-
 .keyboard_keys {
     text-align: center;
 }
-
 .keyboard_key {
     height: 45px;
     width: 6%;
@@ -39,20 +36,16 @@
     -webkit-tap-highlight-color: transparent;
     position: relative;
 }
-
 .keyboard_key:active {
     background: rgba(255, 255, 255, 0.12);
 }
-
 .keyboard_key--wide {
     width: 12%;
 }
-
 .keyboard_key--extra--wide {
     width: 36%;
     max-width: 500px;
 }
-
 .keyboard_key--activatable::after {
     content: '';
     top: 10px;
@@ -63,11 +56,9 @@
     background: rgba(0, 0, 0, 0.4);
     border-radius: 50%;
 }
-
 .keyboard_key--active::after {
     background: #08ff00;
 }
-
 .keyboard_key--dark {
     background: rgba(0, 0, 0, 0.25);
 }
